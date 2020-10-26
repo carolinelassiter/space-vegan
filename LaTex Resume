@@ -1,20 +1,11 @@
 \documentclass[10pt]{article}
-\newcommand\mybar{\kern2pt\rule[-\dp\strutbox]{.8pt}{\baselineskip}\kern2pt}
-\usepackage{setspace}
-\usepackage{geometry}
 \usepackage{multicol}
- \geometry{
- a4paper,
- total={210mm,297mm},
- left=19.05mm,
- right=19.05mm,
- top=12.7mm
- }
-
 \setlength{\textheight}{30in}
+\title{Untitled Document}
+\author{Your Name}
+\date{\today}
 
 \begin{document}
-\setstretch{.9}
 \begin{center}
 
   \begin{huge}
@@ -64,7 +55,8 @@
   \section*{\textbf{Work Experience}}
   \hrule
   \vspace{6pt}
-  \textbf{Hostess} \hspace*{\fill}\textbf{May 2016 – August 2017}\\
+  \textbf{Hostess} \hspace*{\fill}
+  \textbf{May 2016 – August 2017}\\
   \textit{LaBamba Mexican Bar and Grill} - Loganville, GA
   \begin{itemize}
     \item Greeted guests and seated them for dining
@@ -72,7 +64,9 @@
     \item Assisted in serving guests when needed
     \item Cleaned tables upon guests leaving
   \end{itemize}
-  textbf{Aquatic Management Specialists} \hspace*{\fill}\textbf{Seasonal 2016 – 2018 (Summer)}\\
+  \textbf{Aquatic Management Specialists}
+  \hspace*{\fill}
+  \textbf{Seasonal 2016 – 2018 (Summer)}
   \textit{Head Lifeguard} - Snellville, GA
   \begin{itemize}
     \item Maintained an above grade pool system.
@@ -80,7 +74,7 @@
     \item Tracked all the scheduling for the pool employees
     \item Performed regular duties of a lifeguard daily
   \end{itemize}
-  \textbf{ Gwinnett County Lifeguard} \hspace*{\fill}\textbf{Seasonal 2018 – 2019 (Summer)}\\
+  \textbf{Gwinnett County Lifeguard} \hspace*{\fill}\textbf{Seasonal 2018 – 2019 (Summer)}\\
   \textit{Lifeguard} - Snellville, GA
   \begin{itemize}
     \item Responsible for maintaining the pool and facility
@@ -92,6 +86,7 @@
       \item Tracked work schedules and ensured appropriate daily staffing levels
       \item Working as a team to provide quality experience
       \item Performed regular duties of a lifeguard daily
+    \end{itemize}
   \end{itemize}
   \textbf{Waitress} \hspace*{\fill}\textbf{March 2018 – August 2018}\\
   \textit{Cotton Cafe'} - Monroe, GA
@@ -103,6 +98,7 @@
         \item Help to bus tables and keep café clean
         \item Performed hostess duties greeting guest and seating them
         \item Input orders and maintained proper rotation of tables
+    \end{itemize}
   \end{itemize}
   \textbf{Mathematics Tutor/Peer teacher} \hspace*{\fill}\textbf{August 2016 – July 2018}\\
   \textit{Freelance/Loganville High School} - Loganville, GA
@@ -130,24 +126,43 @@
   \section*{\textbf{Campus Involvement}}
   \hrule
   \vspace{6pt}
-  \textbf{UGA Robotics} - Athens, GA \hspace*{\fill}\textbf{2019 – Present}\\
+  \textbf{UGA Robotics} - Athens, GA
+  \hspace*{\fill}
+  \textbf{2019 - Current }
   \begin{itemize}
     \item Participated in creating software for Competition robots
-    \begin{itemize}
-      \item ASABE 2019-2020
-    \end{itemize}
-    \item Part of the Computer Systems team; Head of Line Sensing
-    \item Team constructed an autonomous robot for theoretical use in agricultural surveying
     \item ASABE 2019-2020
+    \begin{itemize}
+      \item Part of the Computer Systems team; Head of Line Sensing
+      \item Team constructed an autonomous robot for theoretical use in agricultural surveying
+   \end{itemize}
+   \item ASABE 2020-2021
+   \begin{itemize}
+     \item Member of the robotic arm project
+     \item Development of a fully functional dynamixel arm
+   \end{itemize}
   \end{itemize}
-  \item Part of the Computer Systems team; Head of Line Sensing
-  \item Team constructed an autonomous robot for theoretical use in agricultural surveyin
-  \end{itemize}
-  \textbf{UGA Student Aerospace Initiative} - Athens, GA \hspace*{\fill}\textbf{2019 – Present}\\
+  \textbf{UGA Student Aerospace Initiative} - Athens, GA
+  \hspace*{\fill}
+  \textbf{2019 - Current}
   \begin{itemize}
       \item Part of the micro-drone build team
       \item Construction of micro-drones for imaging and build practice
   \end{itemize}
+  \textbf{Guide Dog Foundation} - Athens, GA
+  \hspace*{\fill}
+  \textbf{2019 - Current}
+  \begin{itemize}
+      \item Past puppy-raiser/Camper; volunteer raiser of a service dog in-training
+      \item Volunteers contribute to providing free service dogs to those who suffer from visually impairments.
+    \end{itemize}
+  \textbf{UGA Small Satellite Research Laboratory} - Athens, GA \hspace*{\fill}\textbf{2020 -}\\
+  \begin{itemize}
+      \item General Hardware Team member
+      \begin{itemize}
+        \item Member of MEME-Sat team and MOCI team.
+        \item Assists in the construction, development, and deployment of mission-oriented CubeSats, in coordination with UNP, USAF, and NASA.
+      \end{itemize}
+  \end{itemize}
 \end{flushleft}
-
 \end{document}
