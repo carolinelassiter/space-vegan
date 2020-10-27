@@ -1,0 +1,39 @@
+\documentclass[10pt]{article}
+\newcommand\mybar{\kern2pt\rule[-\dp\strutbox]{.8pt}{\baselineskip}\kern2pt}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{multicol}
+\geometry{
+a4paper,
+total={210mm,297mm},
+left=10.05mm,
+right=10.05mm,
+top=7.7mm
+}
+\setlength{\textheight}{30in}
+
+\begin{document}
+\setstretch{.8}
+\begin{center}
+
+  \begin{huge}
+    \textbf{CAROLINE LASSITER}\\
+  \end{huge}
+
+  \hspace{1cm}\\
+  \begin{large}
+    \textbf{Athens, GA \mybar  706-461-7202 \mybar  carolinelassiter@gmail.com}
+  \end{large}
+\end{center}
+
+\begin{flushleft}
+  \section*{\textbf{Education}}
+  \hrule
+  \vspace{6pt}
+  \textbf{University of Georgia} - Athens, GA \hspace*{\fill}\textbf{2018 – Present}\\
+  Bachelors of Science Computer Systems Engineering
+  \begin{itemize}
+    \item \textbf{GPA:} 3.15 \slash 4.00
+
+  \end{itemize}
+\end{flushleft}
